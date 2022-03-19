@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box ;
+    font-family:Tahoma, Verdana, sans-serif;
+}
+.title-connexion{
+  font-size: 17px;
+ margin-top: 4rem;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formConnexion{
+    width: 50rem;
+    height: 60vh;
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:transparent; 
+    text-align: center;
+    border-radius: 6px;
+    border: 0.1px solid #8c8c8db4;
+}
+.formConnexion input[type = "text"],.formConnexion input[type ="password"]  {
+    border: 0;
+    line-height: 2.5;
+    font-size: 14px;
+    background: #ffffff;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid #7d7e80;
+    padding: 1rem 1rem; 
+    width: 300px;
+    outline: none;
+    color: #4B5760;
+    border-radius: 10px;
+    transition: 0.25s;
+  }
+  .formConnexion input[type = "text"]:focus, .formConnexion input[type ="password"]:focus{
+    width: 300px;
+    border-color: #959596;
+  }
+  .formConnexion button[type = "submit"]{
+  border:0;
+  line-height: 1.5;
+  display: block;
+  margin:10px auto;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 2px;
+  background-color: #4B5760;
+  padding: 12px 80px;
+  outline: none;
+  color: #ffffff;
+  border-radius: 40px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-size: 24px;
+  /* overflow: hidden; */
+  }
+  
+  .formConnexion button:hover {
+    background:#DF0059 ;
+    box-shadow: 0 0 20px 10px hsla(320, 2%, 37%, 0.5);
+  }
+  .Account{
+    display:flex;
+    justify-content:center;
+  }
+  .inscrivezvous {
+    padding-top: 10px;
+    text-align:center;
+    color: #4B5760;
+  }
+  
+  .Account a{
+    text-decoration: none;
+    color: #4B5760;
+    font-size: 12px;
+  }
